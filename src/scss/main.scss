@@ -1,6 +1,6 @@
 @import "_normalize";
 @import "_variables";
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 html {
   box-sizing: border-box;
@@ -11,6 +11,9 @@ html {
 }
 
 body {
-  color: $yellow;
-  background: $violet;
+  background: $white;
+  color: $big-stone;
+  font-family: 'Poppins', sans-serif;
+  border: 16px solid $big-stone;
 }
+

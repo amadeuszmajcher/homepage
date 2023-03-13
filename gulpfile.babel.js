@@ -66,7 +66,9 @@ gulp.task("sass", () => {
       })
     )
     .pipe(sourcemaps.init())
-    .pipe(sass())
+    .pipe(sass(
+      {outputStyle: "compressed"}
+    ))
     .on("error", sass.logError)
     .pipe(
       postcss([
