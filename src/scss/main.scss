@@ -2,10 +2,12 @@
 @import "_variables";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 @import "modules/hero.scss";
+@import "modules/skills.scss";
 
 html {
   box-sizing: border-box;
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 *, *:before, *:after {
