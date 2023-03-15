@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 @import "modules/hero.scss";
 @import "modules/skills.scss";
+@import "modules/projects.scss";
 
 html {
   box-sizing: border-box;
@@ -21,3 +22,7 @@ body {
   border: 16px solid $big-stone;
 }
 
+.container{
+  max-width: 1184px;
+  margin: 0 auto;
+}

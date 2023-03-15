@@ -8,13 +8,9 @@
   <title>Amadeusz Majcher</title>
   <meta name="description" content="Description" />
 
-  <!-- Title -->
   <meta property="og:title" content="Amadeusz Majcher" />
-  <!-- OPTIONAL description. 2-4 sentences. -->
   <meta property="og:description" content="CV" />
-  <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
   <meta property="og:url" content="https://github.com/amadeuszmajcher" />
-  <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
   <meta property="og:image" content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png" />
 
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -27,10 +23,12 @@
 
 <body>
   <header class="hero">
-    <img class="hero__image" src="assets/img/amadeusz.png" alt="Amadeusz Majcher." >
+    <img class="hero__image" src="assets/img/amadeusz.png" alt="Amadeusz Majcher.">
     <h1 class="hero__title">Hey there! 👋 My name is Amadeusz and I’m an aspiring Frontend developer.</h1>
-    <p class="hero__description">You might be interested in checking the list of <a class="hero__link" href="#myskills">my
-        skills</a>. Don’t forget to have a glimpse at <a class="hero__link" href="#myprojects">my projects</a>. Currently I’m
+    <p class="hero__description">You might be interested in checking the list of <a class="hero__link"
+        href="#myskills">my
+        skills</a>. Don’t forget to have a glimpse at <a class="hero__link" href="#myprojects">my projects</a>.
+      Currently I’m
       looking for a new challenges so if you have one - <a class="hero__link" href="#contactMe">contact me</a> 😊</p>
     <a class="hero__mail" href="mailto:amadeusz.majcher@avisat.pl">amadeusz.majcher@avisat.pl</a>
   </header>
@@ -75,53 +73,66 @@
     </section>
     <section id="myprojects" class="projects">
       <h2 class="projects__title">Recent projects</h2>
-      <p class="projects__description">I started my frontend developer path in 2003. Since then, I’ve built some projects. Here’s the list of the things I’ve done so far.</p>
-      <ul class="projects__list">
-        <li class="project">
-          <img class="project__logo" src="assets/img/icon-github.svg" alt="github" >
-          <h3 class="project__title">test</h3>
-          <p class="project__description"></p>
-          <div class="project__footer">
-            <a class="project__footer--link" href="#">Demo</a>
-            <a class="project__footer--link" href="#">GitHub</a>
-          </div>
-        </li>
-        <li class="project">
-          <img class="project__logo" src="assets/img/icon-github.svg" alt="github">
-          <h3 class="project__title">test</h3>
-          <p class="project__description"></p>
-          <div class="project__footer">
-            <a class="project__footer--link" href="#">Demo</a>
-            <a class="project__footer--link" href="#">GitHub</a>
-          </div>
-        </li>
-        <li class="project">
-          <img class="project__logo" src="assets/img/icon-github.svg" alt="github">
-          <h3 class="project__title">test</h3>
-          <p class="project__description"></p>
-          <div class="project__footer">
-            <a class="project__footer--link" href="#">Demo</a>
-            <a class="project__footer--link" href="#">GitHub</a>
-          </div>
-        </li>
-        <li class="project">
-          <img class="project__logo" src="assets/img/icon-github.svg" alt="github">
-          <h3 class="project__title">test</h3>
-          <p class="project__description"></p>
-          <div class="project__footer">
-            <a class="project__footer--link" href="#">Demo</a>
-            <a class="project__footer--link" href="#">GitHub</a>
-          </div>
-        </li>
-      </ul>
+      <div class="container">
+        <p class="projects__description">I started my frontend developer path in 2022. Since then, I’ve built some
+          projects. Here’s the list of the things I’ve done so far.</p>
+        <ul class="projects__list">
+          <li class="project">
+            <div class="project__container">
+              <img class="project__logo" src="assets/img/icon-github.svg" alt="github">
+              <h3 class="project__title">test</h3>
+              <p class="project__description">Lorem, ipsum.</p>
+            </div>
+            <div class="project__footer">
+              <a class="project__footer--link" href="#">Demo</a>
+              <a class="project__footer--link link__code" href="#">GitHub</a>
+            </div>
+          </li>
+          <li class="project">
+            <div class="project__container">
+              <img class="project__logo" src="assets/img/icon-github.svg" alt="github">
+              <h3 class="project__title">test</h3>
+              <p class="project__description">Lorem, ipsum.</p>
+            </div>
+            <div class="project__footer">
+              <a class="project__footer--link" href="#">Demo</a>
+              <a class="project__footer--link link__code" href="#">GitHub</a>
+            </div>
+          </li>
+          <li class="project">
+            <div class="project__container">
+              <img class="project__logo" src="assets/img/icon-github.svg" alt="github">
+              <h3 class="project__title">test</h3>
+              <p class="project__description">Lorem, ipsum.</p>
+            </div>
+            <div class="project__footer">
+              <a class="project__footer--link" href="#">Demo</a>
+              <a class="project__footer--link link__code" href="#">GitHub</a>
+            </div>
+          </li>
+          <li class="project">
+            <div class="project__container">
+              <img class="project__logo" src="assets/img/icon-github.svg" alt="github">
+              <h3 class="project__title">test</h3>
+              <p class="project__description">Lorem, ipsum.</p>
+            </div>
+            <div class="project__footer">
+              <a class="project__footer--link" href="#">Demo</a>
+              <a class="project__footer--link link__code" href="#">GitHub</a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
   </main>
   <footer id="contactMe" class="contact">
     <h2 class="contact__title">Contact me</h2>
     <p class="contact__description">I’m open for new opportunities. If you have one for me we should talk!</p>
     <ul class="social">
-      <li class="social__item"><a class="social__link" href="#"><img class="social__icon" src="assets/img/github-white.svg" alt="GitHub"></a></li>
-      <li class="social__item"><a class="social__link" href="#"><img class="social__icon" src="assets/img/github-white.svg" alt="LinkedIn"></a></li>
+      <li class="social__item"><a class="social__link" href="#"><img class="social__icon"
+            src="assets/img/github-white.svg" alt="GitHub"></a></li>
+      <li class="social__item"><a class="social__link" href="#"><img class="social__icon"
+            src="assets/img/github-white.svg" alt="LinkedIn"></a></li>
     </ul>
     <a class="contact__mail" href="mailto:amadeusz.majcher@avisat.pl">amadeusz.majcher@avisat.pl</a>
   </footer>
