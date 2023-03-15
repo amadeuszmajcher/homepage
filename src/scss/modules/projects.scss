@@ -4,7 +4,7 @@
     &__title{
         font-size: 2.25rem;
         font-weight: 600; 
-        margin: 0 auto;
+        margin: 0 auto 1rem;
         padding: 1rem 0;
         max-width: 1184px;
     }
@@ -14,6 +14,7 @@
         line-height: 2.25rem;
         color: $gray;
         max-width: 580px;
+        margin: 0 0 4rem;
     }
 }
 .projects__list{
