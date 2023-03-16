@@ -4,7 +4,7 @@ console.log(`Hello world!`);
 
 const list = document.querySelector('.project__list--js');
 
-fetch("https://api.github.com/users/amadeuszmajcher/repos")
+fetch("https://api.github.com/users/amadeuszmajcher/repos?sort=updated")
   .then(resp => resp.json())
   .then(resp => {
     const repos = resp;
